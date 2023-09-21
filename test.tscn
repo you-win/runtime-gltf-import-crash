@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckdt2yfjwyxup"]
+
+[ext_resource type="Script" path="res://test.gd" id="1_lyvrw"]
+
+[node name="Test" type="Node3D"]
+script = ExtResource("1_lyvrw")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2)
+current = true
